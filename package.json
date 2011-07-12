@@ -6,9 +6,6 @@
   "repository": {
     "url": "git://github.com/mikeal/framework.git"
   },
-  "engines": {
-    "node": "~v0.4.10-pre"
-  },
   "dependencies": {},
   "devDependencies": {},
   "bin" : {
