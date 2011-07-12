@@ -1,0 +1,17 @@
+{
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)",
+  "name": "framework",
+  "description": "A framework for node.js",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/mikeal/framework.git"
+  },
+  "engines": {
+    "node": "~v0.4.10-pre"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "bin" : {
+    "framework":"./bin.js"
+  }
+}
