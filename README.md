@@ -14,7 +14,7 @@
 
 ## Web Framework
 
-* ORM Supports all SQL and NoSQL databases.
+* ORM Supports all SQL, NoSQL, NewSQL and NunoSQL databases.
 * MVCC, CVS, and heavy DRY.
 
 ## Template Framework
