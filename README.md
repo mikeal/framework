@@ -4,6 +4,10 @@
 * High performance
 * High class
 * Robust
+* Snarky
+* Excellent benchmarks (via special >/dev/null capabilities)
+* Downplays value of other frameworks
+* Opinionated (creator as well as code)
 
 # Support
 
