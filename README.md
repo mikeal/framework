@@ -20,3 +20,8 @@
 ## Template Framework
 
 * Full metal templates.
+
+## Compile Target Support
+
+* coffeescript
+* breakfastscript
