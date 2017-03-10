@@ -13,6 +13,7 @@
     "babel-preset-es2017": "^6.22.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
+    "standard": "^9.0.1",
     "tap": "^10.3.0"
   },
   "scripts": {
@@ -20,7 +21,7 @@
     "install": "npm test",
     "pretest": "npm run prepublish",
     "build": "gulp",
-    "test": "nyc tap test/*.js --lines=100 --branches=75 --statements=100 --functions=100",
+    "test": "nyc tap test/*.js --lines=100 --branches=75 --statements=100 --functions=100 & standard",
     "posttest": "npm run prepublish"
   },
   "bin": {

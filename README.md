@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/mikeal/framework.svg?branch=master)](https://travis-ci.org/mikeal/framework)
+[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
 
 ## Framework -- The future of frameworks for node.js
 

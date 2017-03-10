@@ -1,14 +1,14 @@
 require('babel-core/register')({
-  "plugins": [
+  'plugins': [
     [
-      "transform-es2015-modules-commonjs",
+      'transform-es2015-modules-commonjs',
       {
-        "allowTopLevelThis": true
+        'allowTopLevelThis': true
       }
     ]
   ],
-  "presets": [
-    "es2017"
+  'presets': [
+    'es2017'
   ]
 })
 
