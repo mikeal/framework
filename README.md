@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mikeal/framework.svg?branch=master)](https://travis-ci.org/mikeal/framework)
+
 ## Framework -- The future of frameworks for node.js
 
 * Feature rich
