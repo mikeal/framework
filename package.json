@@ -18,7 +18,9 @@
     "prepublish": "npm run build",
     "install": "npm test",
     "pretest": "npm run prepublish",
-    "build": "gulp"
+    "build": "gulp",
+    "test": "node dist/bin.js gulp",
+    "posttest": "npm run prepublish"
   },
   "bin": {
     "framework": "./dist/bin.js"
