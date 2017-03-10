@@ -6,9 +6,21 @@
   "repository": {
     "url": "git://github.com/mikeal/framework.git"
   },
-  "dependencies": {},
-  "devDependencies": {},
-  "bin" : {
-    "framework":"./bin.js"
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.23.0",
+    "babel-preset-es2017": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "install": "npm test",
+    "pretest": "npm run prepublish",
+    "build": "gulp"
+  },
+  "bin": {
+    "framework": "./dist/bin.js"
   }
 }
