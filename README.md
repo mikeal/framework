@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/mikeal/framework.svg?branch=master)](https://travis-ci.org/mikeal/framework)
+[![Build status](https://ci.appveyor.com/api/projects/status/tcunn23iasi6vi12?svg=true)](https://ci.appveyor.com/project/mikeal/framework)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
 
 ## Framework -- The future of frameworks for node.js
