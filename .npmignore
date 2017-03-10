@@ -1,0 +1,5 @@
+bin.js
+test-src
+test
+coverage
+.nyc_output
