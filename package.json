@@ -22,5 +22,8 @@
   },
   "bin": {
     "framework": "./dist/bin.js"
+  },
+  "dependencies": {
+    "foreground-child": "^1.5.6"
   }
 }
