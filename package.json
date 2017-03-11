@@ -30,5 +30,6 @@
   },
   "dependencies": {
     "foreground-child": "^1.5.6"
-  }
+  },
+  "license": "APL-1.0"
 }
