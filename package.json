@@ -23,7 +23,8 @@
     "install": "npm test",
     "pretest": "standard dist",
     "build": "gulp",
-    "test": "nyc tap test/*.js --lines=100 --branches=75 --statements=100 --functions=100",
+    "test": "nyc npm run tap -- --lines=100 --branches=75 --statements=100 --functions=100",
+    "tap": "tap test/*.js",
     "posttest": "npm run aftertest",
     "aftertest": "npm run prepublish",
     "postaftertest": "nyc report --reporter=text-lcov | coveralls"
