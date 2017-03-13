@@ -14,21 +14,26 @@
     "coveralls": "^2.12.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
+    "nyc": "^10.1.2",
     "standard": "^9.0.1",
     "tap": "^10.3.0"
   },
   "scripts": {
     "prepublish": "npm run build",
     "install": "npm test",
-    "pretest": "npm run prepublish",
+    "pretest": "standard dist",
     "build": "gulp",
-    "test": "nyc tap test/*.js --lines=100 --branches=75 --statements=100 --functions=100 && nyc report --reporter=text-lcov | coveralls && standard",
-    "posttest": "npm run prepublish"
+    "test": "nyc npm run tap -- --lines=100 --branches=75 --statements=100 --functions=100",
+    "tap": "tap test/*.js",
+    "posttest": "npm run aftertest",
+    "aftertest": "npm run prepublish",
+    "postaftertest": "nyc report --reporter=text-lcov | coveralls"
   },
   "bin": {
     "framework": "./dist/bin.js"
   },
   "dependencies": {
     "foreground-child": "^1.5.6"
-  }
+  },
+  "license": "APL-1.0"
 }
