@@ -5,6 +5,8 @@
 
 ## Framework -- The future of frameworks for node.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mikeal/framework.svg)](https://greenkeeper.io/)
+
 * Feature rich
 * High performance
 * High class
